@@ -1,0 +1,16 @@
+/* Style global */
+body {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Titre principal */
+header h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}

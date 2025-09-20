@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#accueil" data-fr="Mon Portfolio" data-en="My Portfolio"></a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#accueil" class="nav-link" data-fr="Accueil" data-en="Home"></a>
+                <a href="#presentation" class="nav-link" data-fr="Présentation" data-en="About"></a>
+                <a href="#passions" class="nav-link" data-fr="Passions" data-en="Passions"></a>
+                <a href="#competences" class="nav-link" data-fr="Compétences" data-en="Skills"></a>
+                <a href="#projets" class="nav-link" data-fr="Projets" data-en="Projects"></a>
+                <a href="#cv" class="nav-link" data-fr="Télécharger CV" data-en="Download CV"></a>
+            </div>
+            <div class="language-switcher">
+                <button id="language-btn" class="language-btn">
+                    <i class="fas fa-globe"></i>
+                    <span class="language-text">FR</span>
+                </button>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section Accueil -->
+    <section id="accueil" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title" data-fr="Bonjour, je suis <span class=&quot;highlight&quot;>Adrien BEYSSON</span>" data-en="Hello, I&apos;m <span class=&quot;highlight&quot;>Adrien BEYSSON</span>"></h1>
+                <p class="hero-subtitle" data-fr="Étudiant BUT R&T - Parcours Cybersécurité" data-en="BUT R&T Student - Cybersecurity Track"></p>
+                <p class="hero-description" data-fr="Passionné par les réseaux, télécommunications et cybersécurité. En alternance chez Orange Business Services, je diagnostique et résous les problèmes techniques. Spécialisé dans la conception de réseaux sécurisés et la surveillance des systèmes d'information." data-en="Passionate about networks, telecommunications and cybersecurity. Working as an apprentice at Orange Business Services, I diagnose and resolve technical issues. Specialized in secure network design and information systems monitoring."></p>
+                <div class="hero-buttons">
+                    <a href="#projets" class="btn btn-primary" data-fr="Voir mes projets" data-en="View my projects"></a>
+                    <a href="#cv" class="btn btn-secondary" data-fr="Télécharger CV" data-en="Download CV"></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <!-- Photo de profil supprimée -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Présentation -->
+    <section id="presentation" class="presentation">
+        <div class="container">
+            <h2 class="section-title" data-fr="À propos de moi" data-en="About me"></h2>
+            <div class="presentation-content">
+                <div class="presentation-text">
+                    <h3 data-fr="Mon parcours" data-en="My background"></h3>
+                    <p data-fr="Actuellement en 3ème année de BUT Réseaux et Télécommunications avec un parcours spécialisé en Cybersécurité, je me forme aux technologies de pointe en matière de réseaux, sécurité informatique et gestion de projets." data-en="Currently in my 3rd year of BUT Networks and Telecommunications with a specialized Cybersecurity track, I am training in cutting-edge technologies in networks, computer security and project management.">
+                        Actuellement en 3ème année de BUT Réseaux et Télécommunications avec un parcours 
+                        spécialisé en Cybersécurité, je me forme aux technologies de pointe en matière de 
+                        réseaux, sécurité informatique et gestion de projets.
+                    </p>
+                    <p data-fr="En alternance chez Orange Business Services au service après-vente (SAV), j&apos;effectue des diagnostics et résous les problèmes techniques à distance. Lorsque les interventions nécessitent une expertise spécialisée, j&apos;active les équipes compétentes pour assurer une résolution optimale." data-en="Working as an apprentice at Orange Business Services in after-sales service (SAV), I perform diagnostics and resolve technical issues remotely. When interventions require specialized expertise, I activate the competent teams to ensure optimal resolution.">
+                        <strong>En alternance chez Orange Business Services</strong> au service après-vente (SAV), 
+                        j'effectue des diagnostics et résous les problèmes techniques à distance. Lorsque 
+                        les interventions nécessitent une expertise spécialisée, j'active les équipes 
+                        compétentes pour assurer une résolution optimale.
+                    </p>
+                    <p data-fr="Mon expertise couvre la conception de réseaux sécurisés, l&apos;analyse de risques, les tests de pénétration et la surveillance des systèmes d&apos;information. Je suis passionné par la protection des infrastructures numériques et l&apos;innovation technologique." data-en="My expertise covers secure network design, risk analysis, penetration testing and information systems monitoring. I am passionate about protecting digital infrastructures and technological innovation.">
+                        Mon expertise couvre la conception de réseaux sécurisés, l'analyse de risques, 
+                        les tests de pénétration et la surveillance des systèmes d'information. Je suis 
+                        passionné par la protection des infrastructures numériques et l'innovation technologique.
+                    </p>
+                    <div class="presentation-stats">
+                        <div class="stat">
+                            <h4>BUT R&T</h4>
+                            <p data-fr="3ème année" data-en="3rd year"></p>
+                        </div>
+                        <div class="stat">
+                            <h4>Orange</h4>
+                            <p data-fr="Alternance SAV" data-en="SAV Apprenticeship"></p>
+                        </div>
+                        <div class="stat">
+                            <h4>Cybersécurité</h4>
+                            <p data-fr="Parcours spécialisé" data-en="Specialized track"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="presentation-image">
+                    <div class="about-card">
+                        <div class="about-info">
+                            <h4>Adrien BEYSSON</h4>
+                            <p data-fr="Étudiant BUT R&T - Cybersécurité" data-en="BUT R&T Student - Cybersecurity"></p>
+                            <div class="social-links">
+                                <a href="https://www.linkedin.com/in/adrien-beysson-9a7817339/" class="social-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/AdrienBeyssonRT" class="social-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Passions -->
+    <section id="passions" class="passions">
+        <div class="container">
+            <h2 class="section-title" data-fr="Mes Passions" data-en="My Passions"></h2>
+            <div class="passions-grid">
+                <div class="passion-card">
+                    <div class="passion-image">
+                        <img src="images/rallye.avif" alt="Voitures et Rallye" class="passion-img">
+                    </div>
+                    <div class="passion-content">
+                        <h3 data-fr="Voitures & Rallye" data-en="Cars & Rally"></h3>
+                        <p data-fr="Passionné par la mécanique automobile et l&apos;adrénaline de la compétition. J&apos;apprécie la complexité technique et la précision des véhicules de rallye." data-en="Passionate about automotive mechanics and the adrenaline of competition. I appreciate the technical complexity and precision of rally vehicles."></p>
+                    </div>
+                </div>
+                <div class="passion-card">
+                    <div class="passion-image">
+                        <img src="images/aviation.jpg" alt="Aviation" class="passion-img">
+                    </div>
+                    <div class="passion-content">
+                        <h3 data-fr="Aviation" data-en="Aviation"></h3>
+                        <p data-fr="Fasciné par l&apos;aviation où technologie et précision se rencontrent dans les airs. L&apos;ingénierie aéronautique représente pour moi l&apos;excellence technique." data-en="Fascinated by aviation where technology and precision meet in the air. Aeronautical engineering represents technical excellence for me.">Fasciné par l'aviation où technologie et précision se rencontrent dans les airs. L'ingénierie aéronautique représente pour moi l'excellence technique.</p>
+                    </div>
+                </div>
+                <div class="passion-card">
+                    <div class="passion-image">
+                        <img src="images/montres.webp" alt="Horlogerie" class="passion-img">
+                    </div>
+                    <div class="passion-content">
+                        <h3 data-fr="Horlogerie" data-en="Watchmaking"></h3>
+                        <p data-fr="Collectionneur de montres, attiré par l&apos;ingénierie mécanique et l&apos;artisanat horloger. Ces objets reflètent mon goût pour la précision et l&apos;excellence." data-en="Watch collector, attracted by mechanical engineering and watchmaking craftsmanship. These objects reflect my taste for precision and excellence.">Collectionneur de montres, attiré par l'ingénierie mécanique et l'artisanat horloger. Ces objets reflètent mon goût pour la précision et l'excellence.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="competences" class="competences">
+        <div class="container">
+            <h2 class="section-title" data-fr="Mes Compétences" data-en="My Skills"></h2>
+            <div class="competences-grid">
+                <div class="competence-card">
+                    <div class="competence-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3 data-fr="RT1 - Administration Réseaux" data-en="RT1 - Network Administration"></h3>
+                    <p><strong data-fr="Niveau 3 - Concevoir un réseau" data-en="Level 3 - Design a network">Niveau 3 - Concevoir un réseau</strong></p>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-fr="Conception projets réseau haute disponibilité" data-en="High availability network project design">Conception projets réseau haute disponibilité</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-fr="QoS et supervision infrastructures" data-en="QoS and infrastructure monitoring">QoS et supervision infrastructures</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-fr="Documentation technique et maquettes" data-en="Technical documentation and mockups">Documentation technique et maquettes</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-fr="Gestion de projet et communication" data-en="Project management and communication">Gestion de projet et communication</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="competence-card">
+                    <div class="competence-icon">
+                        <i class="fas fa-wifi"></i>
+                    </div>
+                    <h3 data-fr="RT2 - Connexions & Communications" data-en="RT2 - Connections & Communications"></h3>
+                    <p><strong data-fr="Niveau 3 - Déployer solutions IP" data-en="Level 3 - Deploy IP solutions">Niveau 3 - Déployer solutions IP</strong></p>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-fr="Déploiement systèmes de communication" data-en="Communication systems deployment">Déploiement systèmes de communication</span>
+                            <span>82%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="82%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-fr="Réseaux d&apos;accès sans fil sécurisés" data-en="Secure wireless access networks">Réseaux d&apos;accès sans fil sécurisés</span>
+                            <span>78%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="78%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-fr="Solutions télécoms fixes et mobiles" data-en="Fixed and mobile telecom solutions">Solutions télécoms fixes et mobiles</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-fr="Connexions sécurisées au SI" data-en="Secure connections to IS">Connexions sécurisées au SI</span>
+                            <span>88%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="88%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="competence-card">
+                    <div class="competence-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 data-fr="RT3 - Développement R&T" data-en="RT3 - R&T Development"></h3>
+                    <p><strong data-fr="Niveau 3 - Piloter projets développement" data-en="Level 3 - Lead development projects">Niveau 3 - Piloter projets développement</strong></p>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-fr="Spécifications techniques et cahiers des charges" data-en="Technical specifications and requirements">Spécifications techniques et cahiers des charges</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-fr="Environnements collaboratifs" data-en="Collaborative environments">Environnements collaboratifs</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-fr="Formation utilisateurs" data-en="User training">Formation utilisateurs</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-fr="Déploiement et maintenance" data-en="Deployment and maintenance">Déploiement et maintenance</span>
+                            <span>82%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="82%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="competence-card">
+                    <div class="competence-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 data-fr="Cyber1 - Administration SI Sécurisé" data-en="Cyber1 - Secure IS Administration"></h3>
+                    <p><strong data-fr="Niveau 2 - Système d&apos;information sécurisé" data-en="Level 2 - Secure information system">Niveau 2 - Système d&apos;information sécurisé</strong></p>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-fr="Analyse de risques et politiques sécurité" data-en="Risk analysis and security policies">Analyse de risques et politiques sécurité</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-fr="Outils avancés de sécurisation" data-en="Advanced security tools">Outils avancés de sécurisation</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-fr="Sécurisation systèmes d&apos;exploitation" data-en="Operating system security">Sécurisation systèmes d&apos;exploitation</span>
+                            <span>88%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="88%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-fr="Architecture sécurisée SI" data-en="Secure IS architecture">Architecture sécurisée SI</span>
+                            <span>82%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="82%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="competence-card">
+                    <div class="competence-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3 data-fr="Cyber2 - Surveillance SI" data-en="Cyber2 - IS Monitoring"></h3>
+                    <p><strong data-fr="Niveau 2 - Surveillance incidents sécurité" data-en="Level 2 - Security incident monitoring">Niveau 2 - Surveillance incidents sécurité</strong></p>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-fr="Surveillance activité système d&apos;information" data-en="Information system activity monitoring">Surveillance activité système d&apos;information</span>
+                            <span>83%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="83%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-fr="Tests de pénétration" data-en="Penetration testing">Tests de pénétration</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-fr="Réaction aux incidents de sécurité" data-en="Security incident response">Réaction aux incidents de sécurité</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-fr="Administration outils de surveillance" data-en="Monitoring tools administration">Administration outils de surveillance</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="competence-card">
+                    <div class="competence-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3 data-fr="Formation & Compétences" data-en="Training & Skills"></h3>
+                    <p><strong data-fr="BUT R&T 3ème année - Cybersécurité" data-en="BUT R&T 3rd year - Cybersecurity">BUT R&T 3ème année - Cybersécurité</strong></p>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-fr="Collaboration projet français/anglais" data-en="French/English project collaboration">Collaboration projet français/anglais</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-fr="Veille technologique" data-en="Technology watch">Veille technologique</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-fr="Sécurisation applications" data-en="Application security">Sécurisation applications</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-fr="Gestion projet et délais" data-en="Project and deadline management">Gestion projet et délais</span>
+                            <span>88%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="88%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projets" class="projets">
+        <div class="container">
+            <h2 class="section-title" data-fr="Mes Projets" data-en="My Projects"></h2>
+            <div class="projets-grid">
+                <div class="projet-card">
+                    <div class="projet-image">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="projet-content">
+                        <h3 data-fr="Projet 1" data-en="Project 1">Projet 1</h3>
+                        <p data-fr="Description de votre premier projet" data-en="Description of your first project">Description de votre premier projet</p>
+                        <div class="projet-tech">
+                            <span class="tech-tag" data-fr="Technologie 1" data-en="Technology 1">Technologie 1</span>
+                            <span class="tech-tag" data-fr="Technologie 2" data-en="Technology 2">Technologie 2</span>
+                            <span class="tech-tag" data-fr="Technologie 3" data-en="Technology 3">Technologie 3</span>
+                        </div>
+                        <div class="projet-links">
+                            <a href="#" class="btn btn-small" data-fr="Voir le projet" data-en="View project">Voir le projet</a>
+                            <a href="#" class="btn btn-small btn-outline" data-fr="Code source" data-en="Source code">Code source</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="projet-card">
+                    <div class="projet-image">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="projet-content">
+                        <h3 data-fr="Projet 2" data-en="Project 2">Projet 2</h3>
+                        <p data-fr="Description de votre deuxième projet" data-en="Description of your second project">Description de votre deuxième projet</p>
+                        <div class="projet-tech">
+                            <span class="tech-tag" data-fr="Technologie 1" data-en="Technology 1">Technologie 1</span>
+                            <span class="tech-tag" data-fr="Technologie 2" data-en="Technology 2">Technologie 2</span>
+                            <span class="tech-tag" data-fr="Technologie 3" data-en="Technology 3">Technologie 3</span>
+                        </div>
+                        <div class="projet-links">
+                            <a href="#" class="btn btn-small" data-fr="Voir le projet" data-en="View project">Voir le projet</a>
+                            <a href="#" class="btn btn-small btn-outline" data-fr="Code source" data-en="Source code">Code source</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="projet-card">
+                    <div class="projet-image">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="projet-content">
+                        <h3 data-fr="Projet 3" data-en="Project 3">Projet 3</h3>
+                        <p data-fr="Description de votre troisième projet" data-en="Description of your third project">Description de votre troisième projet</p>
+                        <div class="projet-tech">
+                            <span class="tech-tag" data-fr="Technologie 1" data-en="Technology 1">Technologie 1</span>
+                            <span class="tech-tag" data-fr="Technologie 2" data-en="Technology 2">Technologie 2</span>
+                            <span class="tech-tag" data-fr="Technologie 3" data-en="Technology 3">Technologie 3</span>
+                        </div>
+                        <div class="projet-links">
+                            <a href="#" class="btn btn-small" data-fr="Voir le projet" data-en="View project">Voir le projet</a>
+                            <a href="#" class="btn btn-small btn-outline" data-fr="Code source" data-en="Source code">Code source</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Formulaire CV -->
+    <section id="cv" class="cv-section">
+        <div class="container">
+            <h2 class="section-title" data-fr="Télécharger mon CV" data-en="Download my CV"></h2>
+            <div class="cv-container">
+                <div class="cv-info">
+                    <h3 data-fr="Obtenez mon CV complet" data-en="Get my complete CV">Obtenez mon CV complet</h3>
+                    <p data-fr="Remplissez le formulaire ci-dessous pour télécharger mon CV au format PDF. Cela m&apos;aide à garder une trace des personnes intéressées par mon profil." data-en="Fill out the form below to download my CV in PDF format. This helps me keep track of people interested in my profile.">Remplissez le formulaire ci-dessous pour télécharger mon CV au format PDF. 
+                    Cela m'aide à garder une trace des personnes intéressées par mon profil.</p>
+                    <div class="cv-preview">
+                        <i class="fas fa-file-pdf"></i>
+                        <span>CV_Beysson_Adrien.pdf</span>
+                    </div>
+                </div>
+                <form class="cv-form" id="cvForm">
+                    <div class="form-group">
+                        <label for="nom" data-fr="Nom *" data-en="Name *">Nom *</label>
+                        <input type="text" id="nom" name="nom" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="prenom" data-fr="Prénom *" data-en="First name *">Prénom *</label>
+                        <input type="text" id="prenom" name="prenom" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" data-fr="Email *" data-en="Email *">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" data-fr="Message (optionnel)" data-en="Message (optional)">Message (optionnel)</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Dites-moi pourquoi vous souhaitez mon CV..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <i class="fas fa-download"></i>
+                        <span data-fr="Télécharger le CV" data-en="Download CV">Télécharger le CV</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3 data-fr="Contactez-moi" data-en="Contact me">Contactez-moi</h3>
+                    <p data-fr="Prêt à collaborer sur votre prochain projet ?" data-en="Ready to collaborate on your next project?">Prêt à collaborer sur votre prochain projet ?</p>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> adrienbeysson1@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> 0784235571</p>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4 data-fr="Liens rapides" data-en="Quick links">Liens rapides</h4>
+                    <a href="#accueil" data-fr="Accueil" data-en="Home">Accueil</a>
+                    <a href="#presentation" data-fr="Présentation" data-en="About">Présentation</a>
+                    <a href="#passions" data-fr="Passions" data-en="Passions">Passions</a>
+                    <a href="#competences" data-fr="Compétences" data-en="Skills">Compétences</a>
+                    <a href="#projets" data-fr="Projets" data-en="Projects">Projets</a>
+                    <a href="#cv" data-fr="CV" data-en="CV">CV</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Adrien BEYSSON. <span data-fr="Tous droits réservés." data-en="All rights reserved.">Tous droits réservés.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

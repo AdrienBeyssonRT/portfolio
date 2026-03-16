@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Mes Projets - Détails</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .documents-page {
+            padding-top: 100px;
+        }
+        .doc-section {
+            margin-bottom: 60px;
+        }
+        .doc-title {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #1f2937;
+        }
+        .doc-description {
+            color: #6b7280;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+        .doc-list {
+            margin-bottom: 1.5rem;
+        }
+        .doc-list li {
+            margin-left: 1.2rem;
+            color: #4b5563;
+        }
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 1.5rem;
+            color: #3b82f6;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        .doc-links {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+            margin-top: 1rem;
+        }
+        .doc-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            text-decoration: none;
+            color: #1f2937;
+            padding: 0.6rem 0.9rem;
+            border-radius: 10px;
+            background: #f9fafb;
+            border: 1px solid #e5e7eb;
+            transition: background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .doc-link i {
+            color: #2563eb;
+        }
+        .doc-link:hover {
+            background: #eef2ff;
+            transform: translateY(-1px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation (même que la page principale, mais liens vers index.html) -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html#accueil" data-fr="Mon Portfolio" data-en="My Portfolio"></a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html#accueil" class="nav-link" data-fr="Accueil" data-en="Home"></a>
+                <a href="index.html#presentation" class="nav-link" data-fr="Présentation" data-en="About"></a>
+                <a href="index.html#passions" class="nav-link" data-fr="Passions" data-en="Passions"></a>
+                <a href="index.html#competences" class="nav-link" data-fr="Compétences" data-en="Skills"></a>
+                <a href="index.html#projets" class="nav-link" data-fr="Projets" data-en="Projects"></a>
+                <a href="index.html#cv" class="nav-link" data-fr="Télécharger CV" data-en="Download CV"></a>
+            </div>
+            <div class="language-switcher">
+                <button id="language-btn" class="language-btn">
+                    <i class="fas fa-globe"></i>
+                    <span class="language-text">FR</span>
+                </button>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="documents-page">
+        <div class="container">
+            <a href="index.html#projets" class="back-link">
+                <i class="fas fa-arrow-left"></i>
+                <span data-fr="Retour aux projets" data-en="Back to projects">Retour aux projets</span>
+            </a>
+
+            <!-- SAE.CYBER.03 -->
+            <section id="sae-cyber-03" class="doc-section">
+                <h2 class="doc-title" data-fr="SAE.CYBER.03 - Détails du projet" data-en="SAE.CYBER.03 - Project details">SAE.CYBER.03 - Détails du projet</h2>
+                <p class="doc-description"
+                   data-fr="Vous trouverez ci-dessous les documents associés au projet SAE.CYBER.03, notamment le compte rendu GNS3 et le compte rendu de la SAE. Ils illustrent la conception, la configuration et la sécurisation du réseau, ainsi que l'analyse des incidents et la justification des choix techniques."
+                   data-en="Below are the documents associated with the SAE.CYBER.03 project, including the GNS3 report and the SAE report. They illustrate the design, configuration and securing of the network, as well as incident analysis and justification of technical choices.">
+                   Vous trouverez ci-dessous les documents associés au projet SAE.CYBER.03, notamment le compte rendu GNS3 et le compte rendu de la SAE. Ils illustrent la conception, la configuration et la sécurisation du réseau, ainsi que l'analyse des incidents et la justification des choix techniques.
+                </p>
+                <ul class="doc-list">
+                    <li>COMPTE RENDU GNS3.docx</li>
+                    <li>compte rendue sae503 cyber.docx</li>
+                </ul>
+                <div class="doc-links">
+                    <a href="COMPTE RENDU GNS3.docx" class="doc-link" download>
+                        <i class="fas fa-file-word"></i>
+                        <span data-fr="Télécharger le compte rendu GNS3" data-en="Download GNS3 report">Télécharger le compte rendu GNS3</span>
+                    </a>
+                    <a href="compte rendue sae503 cyber.docx" class="doc-link" download>
+                        <i class="fas fa-file-word"></i>
+                        <span data-fr="Télécharger le compte rendu SAE.CYBER.03" data-en="Download SAE.CYBER.03 report">Télécharger le compte rendu SAE.CYBER.03</span>
+                    </a>
+                </div>
+            </section>
+
+            <!-- SAE501 -->
+            <section id="sae501" class="doc-section">
+                <h2 class="doc-title" data-fr="SAE501 - Détails du projet" data-en="SAE501 - Project details">SAE501 - Détails du projet</h2>
+                <p class="doc-description"
+                   data-fr="Vous trouverez ci-dessous la procédure d'installation et de déploiement ainsi que le compte rendu associés à la SAE501. Ils mettent en avant le déploiement de services réseau, la sécurisation de l'infrastructure et la qualité de la documentation technique."
+                   data-en="Below are the installation and deployment procedure and the report associated with SAE501. They highlight the deployment of network services, infrastructure security and the quality of the technical documentation.">
+                   Vous trouverez ci-dessous la procédure d'installation et de déploiement ainsi que le compte rendu associés à la SAE501. Ils mettent en avant le déploiement de services réseau, la sécurisation de l'infrastructure et la qualité de la documentation technique.
+                </p>
+                <ul class="doc-list">
+                    <li>Procédure d'installation et de déploiement.docx</li>
+                    <li>Compte rendu SAE501.docx</li>
+                </ul>
+                <div class="doc-links">
+                    <a href="Procédure d'installation et de déploiement.docx" class="doc-link" download>
+                        <i class="fas fa-file-word"></i>
+                        <span data-fr="Télécharger la procédure d'installation et de déploiement" data-en="Download installation and deployment procedure">Télécharger la procédure d'installation et de déploiement</span>
+                    </a>
+                    <a href="Compte rendu SAE501.docx" class="doc-link" download>
+                        <i class="fas fa-file-word"></i>
+                        <span data-fr="Télécharger le compte rendu SAE501" data-en="Download SAE501 report">Télécharger le compte rendu SAE501</span>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3 data-fr="Contactez-moi" data-en="Contact me">Contactez-moi</h3>
+                    <p data-fr="Prêt à collaborer sur votre prochain projet ?" data-en="Ready to collaborate on your next project?">Prêt à collaborer sur votre prochain projet ?</p>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> adrienbeysson1@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> 0784235571</p>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4 data-fr="Liens rapides" data-en="Quick links">Liens rapides</h4>
+                    <a href="index.html#accueil" data-fr="Accueil" data-en="Home">Accueil</a>
+                    <a href="index.html#presentation" data-fr="Présentation" data-en="About">Présentation</a>
+                    <a href="index.html#passions" data-fr="Passions" data-en="Passions">Passions</a>
+                    <a href="index.html#competences" data-fr="Compétences" data-en="Skills">Compétences</a>
+                    <a href="index.html#projets" data-fr="Projets" data-en="Projects">Projets</a>
+                    <a href="index.html#cv" data-fr="CV" data-en="CV">CV</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Adrien BEYSSON. <span data-fr="Tous droits réservés." data-en="All rights reserved.">Tous droits réservés.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
